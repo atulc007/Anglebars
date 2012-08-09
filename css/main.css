@@ -37,6 +37,10 @@ h1, h2 {
 h2 {
 	font-size: 24px;
 	text-align: center;
+	border-bottom: 1px solid #eee;
+	margin: 0.2em 0 0.5em 0;
+	padding-bottom: 0.2em;
+	clear: both;
 }
 
 a {
@@ -61,7 +65,7 @@ a.forkme:hover {
 	left: 0;
 }
 
-span.logo {
+.logo {
 	font-family: 'Voltaire', sans-serif;
 }
 
@@ -77,8 +81,16 @@ code {
 	white-space: pre;
 	font-family: monospace;
 	font-size: 14px;
-	background-color: rgba(139,195,58,0.05);
+	background-color: rgb(249,252,246);
 	display: block;
 	padding: 0.5em;
 	overflow-x: auto;
+	margin: 0 0 1em 0;
+}
+
+.nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.5em;
 }
