@@ -27,11 +27,16 @@ body {
 	max-width: 200px;
 }
 
-h1 {	
+h1, h2 {	
 	font-family: 'Voltaire', sans-serif;
 	font-size: 64px;
 	font-weight: normal;
 	margin: 0.2em 0 0 0;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
 }
 
 a {
@@ -50,6 +55,12 @@ a:visited {
 	color: #729d34;
 }
 
+a.forkme:hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 span.logo {
 	font-family: 'Voltaire', sans-serif;
 }
@@ -59,7 +70,7 @@ span.logo {
 	height: 19px;
 	background: url(../assets/mustache.png) no-repeat 0 0;
 	display: block;
-	margin: 0 auto;
+	margin: 40px auto 40px auto;
 }
 
 code {
@@ -69,4 +80,5 @@ code {
 	background-color: rgba(139,195,58,0.05);
 	display: block;
 	padding: 0.5em;
+	overflow-x: auto;
 }
